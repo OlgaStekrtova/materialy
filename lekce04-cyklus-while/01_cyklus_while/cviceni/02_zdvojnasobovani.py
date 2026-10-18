@@ -5,3 +5,14 @@
 #    jakmile přesáhne 1000, a vypiš, kolikrát jsi ho zdvojnásobila.
 
 
+
+cislo = 1
+kolikrat = 0
+while cislo <= 1000:
+    cislo = cislo * 2
+    print(cislo)
+    kolikrat = kolikrat + 1
+print("done", cislo)
+print("how much", kolikrat)
+
+

@@ -5,3 +5,9 @@
 #    dokud nenapíše "Praha". Pak vypiš "Správně!".
 
 
+
+city = input ("Jaké je hlavní město Česka?")
+while city != "Praha":
+    print("no")
+    city = input("Jaké je hlavní město Česka?")
+print("Yep, thats right")    

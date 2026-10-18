@@ -6,3 +6,17 @@
 #    Z cyklu se v obou případech dostaneš příkazem break.
 
 
+tries = 0
+tries_left = 3
+while True:
+    heslo = input("Password:")
+    tries = tries + 1
+    tries_left -= 1
+    if heslo == "pyladies":
+        print("Hi!")
+        break
+    if tries == 3:
+        print("Blocked")
+        break
+    print("u have " + str(tries_left) + " more attempts")
+
